@@ -20,6 +20,12 @@ public class Main {
         System.out.println(thirdCar.number);
         System.out.println(thirdCar.isSupercar);
         System.out.println(thirdCar.color);
-    }
 
+
+        car.go();
+        secondCar.go();
+
+    }
 }
+
+
