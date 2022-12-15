@@ -1,11 +1,11 @@
-package lessons;
+package lesson1;
 
 import java.util.Scanner;
 
 public class MainForPerson {
 
     public static void main(String[] args) {
-//        Person person = new Person("Даниил");
+//        lesson1.Person person = new lesson1.Person("Даниил");
         //person.age = 21;
         //person.daysAfterBirthday = 256;
         //System.out.println(person.daysAfterBirthday);
@@ -16,10 +16,10 @@ public class MainForPerson {
 //
 //
 //
-        //Person secondPerson = new Person("Андрей");
+        //lesson1.Person secondPerson = new lesson1.Person("Андрей");
 //
-        //Person.president = "Билл Клинтон";
-        //Person.president = "Джорж Буш";
+        //lesson1.Person.president = "Билл Клинтон";
+        //lesson1.Person.president = "Джорж Буш";
 //
         //System.out.println(person.name);
 //
@@ -33,7 +33,7 @@ public class MainForPerson {
         //System.out.println(person.president);
         //System.out.println(secondPerson.president);
 //
-        //Person thirdPerson = new Person("Павел");
+        //lesson1.Person thirdPerson = new lesson1.Person("Павел");
 //
         //System.out.println(thirdPerson.president);
 //
@@ -42,12 +42,12 @@ public class MainForPerson {
         //secondPerson.info();
         //person.info();
 //
-        //Person.infoAboutClass();
+        //lesson1.Person.infoAboutClass();
 //
         //int a = Math.min(4, 5);
 
 
-//        Person person = new Person("Даниил");
+//        lesson1.Person person = new lesson1.Person("Даниил");
 //        person.setPassword("qwerty123");
 //
 //

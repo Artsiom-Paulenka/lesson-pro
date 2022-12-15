@@ -1,5 +1,6 @@
+package lesson1;
 
-    import jdk.swing.interop.SwingInterOpUtils;
+import jdk.swing.interop.SwingInterOpUtils;
 
     public class StringUtils {
         final static int COUNT_OF_ENGLISH_LETTERS = 26;

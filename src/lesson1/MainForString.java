@@ -1,4 +1,6 @@
-    public class MainForString {
+package lesson1;
+
+public class MainForString {
         public static void main(String[] args) {
             char symbol = StringUtils.getLastSymbol("Привет");
 
