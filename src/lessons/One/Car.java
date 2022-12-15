@@ -1,4 +1,4 @@
-package lessons.obj.orien.progr;
+package lessons.One;
 
 public class Car {
     //параметры

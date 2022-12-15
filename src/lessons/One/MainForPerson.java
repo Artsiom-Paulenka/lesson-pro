@@ -1,4 +1,4 @@
-package lessons.obj.orien.progr;
+package lessons.One;
 
 import java.util.Scanner;
 
