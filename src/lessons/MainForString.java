@@ -1,4 +1,4 @@
-package lesson1;
+package lessons;
 
 public class MainForString {
         public static void main(String[] args) {

@@ -1,18 +1,16 @@
-package lesson1;
+package lessons;
 
-import java.util.Scanner;
-
-    public class Main {
+public class Main {
 
         public static void main(String[] args) {
 
             int number = 10;
-            Car c = null;
+            OldCar c = null;
             //System.out.println(c);
 
-            Car car = new Car("blue", 543, true);
+            OldCar car = new OldCar("blue", 543, true);
 
-            Car car1 = new Car("yellow", true);
+            OldCar car1 = new OldCar("yellow", true);
             System.out.println(car1.number);
 
 
@@ -20,7 +18,7 @@ import java.util.Scanner;
             car.go(50);
 
 
-            Car secondCar = new Car("green", 12, false);
+            OldCar secondCar = new OldCar("green", 12, false);
 
             System.out.println(car);
             System.out.println(secondCar);
@@ -33,7 +31,7 @@ import java.util.Scanner;
 
             System.out.println("-------------------");
 
-            Car thirdCar = new Car("yellow", 1, false);
+            OldCar thirdCar = new OldCar("yellow", 1, false);
 
             System.out.println(thirdCar);
             System.out.println(thirdCar.number);

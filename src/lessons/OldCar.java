@@ -1,6 +1,6 @@
-package lesson1;
+package lessons;
 
-public class Car {
+public class OldCar {
     //параметры
 
     String color;
@@ -11,13 +11,13 @@ public class Car {
 
     //поведение (методы и функции)
 
-    public Car(String color, int number, boolean isSuperCar) {
+    public OldCar(String color, int number, boolean isSuperCar) {
         this.color = color;
         this.number = number;
         this.isSuperCar = isSuperCar;
     }
 
-    public Car(String color, boolean isSuperCar) {
+    public OldCar(String color, boolean isSuperCar) {
         this.color = color;
         this.isSuperCar = isSuperCar;
     }

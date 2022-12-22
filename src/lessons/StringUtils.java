@@ -1,8 +1,6 @@
-package lesson1;
+package lessons;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
-    public class StringUtils {
+public class StringUtils {
         final static int COUNT_OF_ENGLISH_LETTERS = 26;
 
         public static char getFirstSymbol(String string) {
