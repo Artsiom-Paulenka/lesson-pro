@@ -1,6 +1,6 @@
 package lessons.car;
 
-public class Car {
+public abstract class Car {
     private int number;
 
     public int getNumber() {
@@ -11,12 +11,12 @@ public class Car {
         this.number = number;
     }
 
-    public void go() {
-        System.out.println("Машина поехала");
-    }
+    public abstract void go();
 
-    public String toString() {
-        String str = "Это машина с номером" + number;
-        return str;
-    }
+
+
+//    public String toString() {
+//        String str = "Это машина с номером" + number;
+//        return str;
+//    }
 }
